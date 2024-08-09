@@ -19,7 +19,7 @@ bot.on("message", async (msg) => {
         chatId,
         `Assalomu Aleykum <pre><b>${name}</b> <b>${
           lastname ? lastname : ""
-        }</b></pre> botimizga xush kelibsiz.\nBotga instagram vidio linkini yuboring va uni siz yuklab beramiz`,
+        }</b></pre>Botimizga xush kelibsiz.\nBotga instagram vidio linkini yuboring va uni siz yuklab beramiz`,
         {
           parse_mode: "HTML",
         }
